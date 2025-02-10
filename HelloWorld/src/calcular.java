@@ -1,5 +1,5 @@
 public class calcular {
-   public static int calcular(int a, int b){
+   public int calcular(int a, int b){
         return a + b;
    }
 }

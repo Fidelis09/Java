@@ -1,17 +1,50 @@
 package entities;
 
 public class Product {
-
+    
     private String name;
     private double price;
     private int quantity;
 
+    //! Constructors and Overloads
+    public Product() {
+    }
+
+    public Product(String name, double price) {
+        this.name = name;
+        this.price = price;
+
+    }
     public Product(String name, double price, int quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
 
     }
+
+    //? Getters and Setters
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getQuantity() { //não criar o set quantity, pois o set é feito localmente[]
+        return quantity;
+    }
+
+    // Methods
 
     public double totalValueInStock() {
         return price * quantity;
@@ -26,7 +59,6 @@ public class Product {
     }
 
     public String toString() {
-        return name + ", $ " + String.format("%.2f", price) + ", " + quantity + " units, Total: $ "
-                + String.format("%.2f", totalValueInStock());
+        return name + ", $ " + String.format("%.2f", price) + ", " + quantity + " units, Total: $ " + String.format("%.2f", totalValueInStock());
     }
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Banco/Banco.iml" filepath="$PROJECT_DIR$/Banco/Banco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Construtores/Construtores.iml" filepath="$PROJECT_DIR$/Construtores/Construtores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulamento/Encapsulamento.iml" filepath="$PROJECT_DIR$/Encapsulamento/Encapsulamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Entradas/Entradas.iml" filepath="$PROJECT_DIR$/Entradas/Entradas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Funcoes/Funcoes.iml" filepath="$PROJECT_DIR$/Funcoes/Funcoes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-.iml" filepath="$PROJECT_DIR$/.idea/Java-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Math/Math.iml" filepath="$PROJECT_DIR$/Math/Math.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Poo/Poo.iml" filepath="$PROJECT_DIR$/Poo/Poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Poo_produtoEstoque/Poo_produtoEstoque.iml" filepath="$PROJECT_DIR$/Poo_produtoEstoque/Poo_produtoEstoque.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Saidas/Saidas.iml" filepath="$PROJECT_DIR$/Saidas/Saidas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sobrecarga/Sobrecarga.iml" filepath="$PROJECT_DIR$/Sobrecarga/Sobrecarga.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Static/Static.iml" filepath="$PROJECT_DIR$/Static/Static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Switch_case/Switch_case.iml" filepath="$PROJECT_DIR$/Switch_case/Switch_case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vetores/Vetores.iml" filepath="$PROJECT_DIR$/Vetores/Vetores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vetorobjeto/Vetorobjeto.iml" filepath="$PROJECT_DIR$/Vetorobjeto/Vetorobjeto.iml" />
+    </modules>
+  </component>
+</project>

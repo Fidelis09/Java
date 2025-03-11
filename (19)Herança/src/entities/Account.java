@@ -3,7 +3,7 @@ package entities;
 public class Account {
     private Integer number;
     private String holder;
-    private double balance;
+    protected double balance;
 
     public Account(Integer number, String holder, double balance) {
         this.number = number;

@@ -25,7 +25,7 @@ public class Program {
 
         //não pode fazer o downcasting de SavingsAccount para BusinessAccount
         //BusinessAccount acc5 = (BusinessAccount) acc3;
-
+/* 
         if (acc3 instanceof BusinessAccount){
             BusinessAccount acc5 = (BusinessAccount) acc3;
             acc5.Loan(200.0);
@@ -37,6 +37,6 @@ public class Program {
             acc5.updateBalance();
             System.out.println("Update!");
         }
-
+*/
     }
 }

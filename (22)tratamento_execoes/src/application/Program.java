@@ -6,26 +6,51 @@ import java.util.Scanner;
 public class Program {
     public static void main(String[] args) {
 
-            Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-            try {
+       method1();
 
-                String[] vect = sc.nextLine().split(" ");
-                int position = sc.nextInt();
-                System.out.println(vect[position]);
+        System.out.println("End of program");
 
-            }catch (ArrayIndexOutOfBoundsException e){
+        sc.close();
+    }
 
-                System.out.println("Invalid position!");
 
-            }catch (InputMismatchException e){
+    public static void method1() {
 
-                System.out.println("Input error");
-                
-            }
+        System.out.println("***METHOD1 START***");
+        method2();
+        System.out.println("***METHOD1 END***");
+        
+    }
 
-            System.out.println("End of program");
 
-            sc.close();
+
+    public static void method2() {
+
+        System.out.println("***METHOD2 START***");
+
+        Scanner sc = new Scanner(System.in);
+
+        try {
+
+            String[] vect = sc.nextLine().split(" ");
+            int position = sc.nextInt();
+            System.out.println(vect[position]);
+
+        } catch (ArrayIndexOutOfBoundsException e) {
+
+            System.out.println("Invalid position!");
+            //rastreia as execoes
+            e.printStackTrace();
+
+        } catch (InputMismatchException e) {
+
+            System.out.println("Input error");
+
         }
+            
+        System.out.println("***METHOD2 END***");
+        sc.close();
+    }
 }

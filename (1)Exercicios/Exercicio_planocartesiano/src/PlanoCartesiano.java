@@ -52,7 +52,6 @@ public class PlanoCartesiano {
             return "Eixo X";
         } else {
             return "Origem";
-               }
-
-    }
+        }
+    }
 }

@@ -3,6 +3,7 @@ import java.util.Random;
 public class ordenar {
     public static void main(String[] args) {
         Random rd = new Random();
+        
         int[] num = new int[20];
 
         int i, j, aux;

@@ -136,31 +136,39 @@ public class Program {
     }
 
     public static void verificarEstoque(Scanner sc) {
+    System.out.print("+-----------------------------------+\n");
+    System.out.println("Id: ");
+    System.out.print("+-----------------------------------+\n");
+    int id = sc.nextInt();
 
-        System.out.print("Id: ");
-        int id = sc.nextInt();
+    boolean encontrado = false;
+    int quantidade = 0; // Variável para contar a quantidade de produtos com o mesmo ID
 
-        boolean encontrado = false;
-
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                for (int k = 0; k < 3; k++) {
-                    if (estoque[i][j][k] == id) {
-                        System.out.print("+-----------------------------------+\n");
-                        System.out.printf("Produto encontrado na posição [%d][%d][%d]\n", i, j, k);
-                        System.out.print("+-----------------------------------+\n");
-                        encontrado = true;
-                    }
+    for (int i = 0; i < x; i++) {
+        for (int j = 0; j < y; j++) {
+            for (int k = 0; k < z; k++) {
+                if (estoque[i][j][k] == id) {
+                    System.out.print("+-----------------------------------+\n");
+                    System.out.printf("Produto encontrado na posição [%d][%d][%d]\n", i, j, k);
+                    System.out.print("+-----------------------------------+\n");
+                    encontrado = true;
+                    quantidade++; // Incrementa o contador
                 }
             }
         }
-
-        if (!encontrado) {
-            System.out.print("+------------------  -----------------+\n");
-            System.out.println("Produto não encontrado no estoque.");
-            System.out.print("+-----------  ------------------------+\n");
-        }
-
     }
+
+    if (encontrado) {
+        System.out.print("+-----------------------------------+\n");
+        System.out.printf("Quantidade de produtos com ID %d: %d\n", id, quantidade);
+        System.out.print("+-----------------------------------+\n");
+    } else {
+        System.out.print("+-----------------------------------+\n");
+        System.out.println("Produto não encontrado no estoque.");
+        System.out.print("+-----------------------------------+\n");
+}
+
+
+}
 
 }
